@@ -1,4 +1,4 @@
 # COC-Website
 Clan Website using PHP / HTML and CSS
 
-first initial release and needs some cleen up
+first initial release and needs some clean up
