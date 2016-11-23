@@ -1,0 +1,67 @@
+.StatusBackground {
+    background-image: linear-gradient(rgba(74,74,74,.75), rgba(58,58,58,.75));
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 5px 2px #000;
+    width: 1000px;
+    font-size: 18px;
+}
+
+.LoseBackground {
+    background-image: linear-gradient(rgba(195,130,130,.75), rgba(184,106,106,.75));
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 5px 2px #000;
+    width: 1000px;
+}
+
+.WinBackground {
+    background-image: linear-gradient(rgba(185,210,142,.75), rgba(163,196,105,.75));
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 5px 2px #000;
+    width: 1000px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+table {
+    width: 950px;
+    border: none;
+    border-collapse: collapse;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td {
+    width: 60px;
+    border: none;
+}
+
+img {
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+}
+
+span {
+    font-size: 13px;
+    color: white;
+}

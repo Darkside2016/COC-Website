@@ -1,0 +1,36 @@
+body {
+	background: url(1.png) no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100%;
+	background-attachment: fixed;
+	width: auto;
+	font-family: Supercell-Magic;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 15px;
+  width:65%;
+}
+
+#footer
+{
+    width:auto;
+    height:50px;
+    clear:both;
+    background:#020202;
+}
+
+.explevel {
+   background-image: url("https://clashofclans.com/img/svgs/player-star.svg");
+   background-repeat: no-repeat;
+   background-size: 48px 48px;
+   text-align: center;
+   display:table-cell;
+   vertical-align: middle;
+}

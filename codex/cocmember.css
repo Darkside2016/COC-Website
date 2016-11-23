@@ -1,0 +1,99 @@
+body {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	width: auto;
+	/* background-image: url(../background/3.png); */
+	background-repeat: no-repeat;
+	font-family: Supercell-Magic;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 15px;
+  width:65%;
+}
+
+#footer
+{
+    width:auto;
+    height:50px;
+    clear:both;
+    background:#020202;
+}
+
+.explevel {
+    background-image: url("https://clashofclans.com/img/svgs/player-star.svg");
+    background-repeat: no-repeat;
+    background-size: 48px 48px;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    color: #fff;
+}
+
+a:link {
+    color: orangered;
+    vertical_align: top;
+    align: right;
+
+}
+
+a:visited {
+    color: lightgreen;
+    vertical_align: top;
+    align: right;
+
+}
+
+.points {
+	/* display: inline-block; */
+	background-color: rgba(256,196,90, .75);
+	font-family: supercell-magicregular, Arial, sans-serif;
+	line-height: 1;
+	color: #fff;
+	border-radius: 5px;
+	font-size: 18px;
+	width: 100px;
+	/* height: 48px; */
+
+	line-height: 48px;
+	padding-right: 34px;
+	background-image: url(https://clashofclans.com/img/shared/trophy.png);
+	background-repeat: no-repeat;
+	background-position: 70%;
+        /* position: absolute; */
+        /* left: 50%; */
+        content: ' ';
+        background-size: 22px 22px;
+}
+
+.points span:after {
+    content: '';
+    display: block;
+    width: 22px;
+    height: 100%;
+    /* position: absolute; */
+    right: 0;
+    top: 0;
+    background: url(https://clashofclans.com/img/shared/trophy.png) center no-repeat;
+    background-size: 100% auto;
+}
+
+.vertikal-align-content {
+    vertical_align: top;
+    align: right;
+}
+
+.troops-send {
+    color: lightgreen;
+}
+
+.troops-received {
+    color: orangered;
+}
